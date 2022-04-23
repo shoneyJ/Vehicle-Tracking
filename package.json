@@ -1,0 +1,19 @@
+{
+  "name": "vehicle-tracking",
+  "version": "1.0.0",
+  "description": "Connect to redis db, use MQTT to feed data from client",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Shoney",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0",
+    "nodemon": "^2.0.15",
+    "redis": "^4.0.6",
+    "socket.io": "^4.4.1"
+  }
+}
